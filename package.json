@@ -8,7 +8,8 @@
     "dev:frontend": "npm --prefix frontend run dev",
     "dev:backend": "node backend/server.js",
     "build": "npm --prefix frontend run build && node -e \"require('fs').cpSync('frontend/dist', 'dist', {recursive: true})\"",
-    "start": "npm --prefix frontend run dev"
+    "start": "npm --prefix frontend run dev",
+    "deploy:firebase": "npm run build && npx firebase-tools deploy"
   },
   "keywords": [
     "reelmind",
