@@ -1,0 +1,21 @@
+{
+  "name": "reelmind-ai",
+  "version": "1.0.0",
+  "description": "ReelMind AI - Turn Your Scroll Into Skill (Hack2Skill Competition Web Application)",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "node backend/server.js",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run dev"
+  },
+  "keywords": [
+    "reelmind",
+    "ai",
+    "hack2skill",
+    "recommendation-engine",
+    "education"
+  ],
+  "author": "ReelMind AI Team"
+}
